@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:/Users/mayyabykhanova/Documents/TableWithoutStoryboard/TableWithoutStoryboard/TableWithoutStoryboard/DetailPatternViewController.swift">
+   </FileRef>
+   <FileRef
       location = "group:TableWithoutStoryboard.xcodeproj">
    </FileRef>
    <FileRef
