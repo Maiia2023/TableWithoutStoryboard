@@ -9,7 +9,7 @@ import Foundation
 import UIKit
 import SnapKit
 
-class PhotoViewController: UIViewController {
+class PhotoViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
     
     private let imageView = UIImageView()
     private let addPhotoButton = UIButton()
@@ -30,8 +30,8 @@ class PhotoViewController: UIViewController {
         view.backgroundColor = .white
         
         imageView.contentMode = .scaleAspectFit
-        imageView.layer.borderWidth = 2
-        imageView.layer.borderColor = UIColor.black.cgColor
+        imageView.layer.borderWidth = 1
+        imageView.layer.borderColor = UIColor.gray.cgColor
         view.addSubview(imageView)
         
         addPhotoButton.setTitle("Add Photo", for: .normal)
@@ -70,14 +70,30 @@ class PhotoViewController: UIViewController {
     
     @objc private func addPhotoTapped() {
         
+        let imagePickerController = UIImagePickerController()
+        imagePickerController.delegate = self
+        imagePickerController.sourceType = .photoLibrary
+        present(imagePickerController, animated: true, completion: nil)
+        
     }
     
     @objc private func deletePhotoTapped() {
-        
+        imageView.image = nil
     }
+    
+    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
+        if let selectedImage = info[.originalImage] as? UIImage {
+            imageView.image = selectedImage
+        }
+        
+        picker.dismiss(animated: true, completion: nil)
+    }
+    func imagePickerControllerDidCancel(_ picker: UIImagePickerController) {
+        picker.dismiss(animated: true, completion: nil)
+    }
+                                                                                                                
 }
     
     
     
-//    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo: Info)
-//}
+
