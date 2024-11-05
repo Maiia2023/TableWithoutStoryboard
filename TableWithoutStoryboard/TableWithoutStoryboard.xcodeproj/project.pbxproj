@@ -10,6 +10,7 @@
 		476B360ADF49689786635DE4 /* Pods_TableWithoutStoryboard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B13048ACF66890554AD2455 /* Pods_TableWithoutStoryboard.framework */; };
 		51009E6B2CD5219200F26390 /* DetailPatternViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51009E6A2CD5219200F26390 /* DetailPatternViewController.swift */; };
 		51009E6D2CD5228E00F26390 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51009E6C2CD5228E00F26390 /* PhotoViewController.swift */; };
+		51009E6F2CDA9E9600F26390 /* DetailPatternViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51009E6E2CDA9E9600F26390 /* DetailPatternViewController.swift */; };
 		51BC28632CD2CF1700D484E2 /* PatternTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BC28622CD2CF1700D484E2 /* PatternTableViewCell.swift */; };
 		51C901A82CD22E9400B3BF52 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C901A72CD22E9400B3BF52 /* AppDelegate.swift */; };
 		51C901AA2CD22E9400B3BF52 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C901A92CD22E9400B3BF52 /* SceneDelegate.swift */; };
@@ -21,6 +22,7 @@
 /* Begin PBXFileReference section */
 		51009E6A2CD5219200F26390 /* DetailPatternViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DetailPatternViewController.swift; path = /Users/mayyabykhanova/Documents/TableWithoutStoryboard/TableWithoutStoryboard/TableWithoutStoryboard/DetailPatternViewController.swift; sourceTree = "<absolute>"; };
 		51009E6C2CD5228E00F26390 /* PhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
+		51009E6E2CDA9E9600F26390 /* DetailPatternViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DetailPatternViewController.swift; path = /Users/mayyabykhanova/Documents/TableWithoutStoryboard/TableWithoutStoryboard/TableWithoutStoryboard/DetailPatternViewController.swift; sourceTree = "<absolute>"; };
 		51BC28622CD2CF1700D484E2 /* PatternTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatternTableViewCell.swift; sourceTree = "<group>"; };
 		51C901A42CD22E9400B3BF52 /* TableWithoutStoryboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableWithoutStoryboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51C901A72CD22E9400B3BF52 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 				51C901AB2CD22E9400B3BF52 /* ViewController.swift */,
 				51BC28622CD2CF1700D484E2 /* PatternTableViewCell.swift */,
 				51009E6A2CD5219200F26390 /* DetailPatternViewController.swift */,
+				51009E6E2CDA9E9600F26390 /* DetailPatternViewController.swift */,
 				51009E6C2CD5228E00F26390 /* PhotoViewController.swift */,
 				51C901B02CD22E9500B3BF52 /* Assets.xcassets */,
 				51C901B22CD22E9500B3BF52 /* LaunchScreen.storyboard */,
@@ -214,6 +217,7 @@
 				51C901AC2CD22E9400B3BF52 /* ViewController.swift in Sources */,
 				51C901A82CD22E9400B3BF52 /* AppDelegate.swift in Sources */,
 				51009E6B2CD5219200F26390 /* DetailPatternViewController.swift in Sources */,
+				51009E6F2CDA9E9600F26390 /* DetailPatternViewController.swift in Sources */,
 				51BC28632CD2CF1700D484E2 /* PatternTableViewCell.swift in Sources */,
 				51C901AA2CD22E9400B3BF52 /* SceneDelegate.swift in Sources */,
 				51009E6D2CD5228E00F26390 /* PhotoViewController.swift in Sources */,
