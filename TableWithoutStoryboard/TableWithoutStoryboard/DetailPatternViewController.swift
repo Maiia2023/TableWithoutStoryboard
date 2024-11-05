@@ -1,9 +1,10 @@
 //
 //  DetailPatternViewController.swift
-//  
+//  TableWithoutStoryboard
 //
-//  Created by Mayya Bykhanova on 01.11.2024.
+//  Created by Mayya Bykhanova on 05.11.2024.
 //
+
 
 import Foundation
 import SnapKit
@@ -104,18 +105,3 @@ extension DetailPatternViewController {
         }
     }
 }
-
-
-        
-//        if let pattern = pattern {
-//            navigationItem.title = pattern.patternName
-//            imageName.image = UIImage(named: pattern.imageName)
-//            patternDescription.text = pattern.description
-//    
-//        }
-//        
-//            let tapGesture = UITapGestureRecognizer(target: self, action: #selector(imageTapped(_ :))) {
-//        imageName.UIUserInteractionEnabled = true
-//        imageName.addGestureRecognizer(tapGesture)
-//    }
-
